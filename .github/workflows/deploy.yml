@@ -23,5 +23,6 @@ jobs:
         port: 22
         script: |
           cd /var/www/controlforestal/despachos
+          ls -la
           git pull origin main
           git status
